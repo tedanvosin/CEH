@@ -1,6 +1,6 @@
 # Concepts and Tools in CEH v12 Preparation
 
-This repository contains in-depth overview of the foundational concepts and tools required for CEH v12 preparation. It covers key theoretical frameworks, regulatory standards, network fundamentals, and various tools and techniques used in vulnerability assessment and ethical hacking. 
+This repository contains in-depth overview of the foundational concepts and tools I came across for CEH v12 preparation. It covers key theoretical frameworks, regulatory standards, network fundamentals, and various tools and techniques used in vulnerability assessment and ethical hacking. 
 
 ## Concepts
 
