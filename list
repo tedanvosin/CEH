@@ -1,83 +1,218 @@
+Concepts
+These items are either theoretical frameworks, regulatory standards, protocols, or attack/recon techniques that you’ll need to understand when using the tools:
+
+Intrusion & Analysis Frameworks
+
 Models of intrusion analysis
-FISMA
-GLBA
 
-Been Verified
-Spokeo
-ExoneraTor
-Whitepages
-DNS Record Types: PTR,SOA,CNAME,SRV, NS,TXT, HINFO, A
-Google Dorking
-Vindicate
-Robber
-BuzzSumo
-Netcraft
-GFI LanGuard
-OpenVAS
-Nikito
-KFSensor
-Photon
-Mention
-theHarvester
-Gephi
-NodeXL
-BurpSuite
-HTTrack WebSite Cpoier
-domianfy.py
-mailfy.py
-searchfy.py
-usufy.pf
-Spyse
-FTK Imager
-Dependency Walker
-Zimperiums IPS
+Regulatory & Compliance Standards
 
-hping
-Fing
-Maltego
-Nmap
-Cain&Abel
-John the ripper
-hashcat
+FISMA (Federal Information Security Management Act)
+
+GLBA (Gramm-Leach-Bliley Act)
+
+DNS & Network Fundamentals
+
+DNS Record Types: PTR, SOA, CNAME, SRV, NS, TXT, HINFO, A
+
+OSINT & Recon Techniques
+
+Google Dorking (advanced search operators for finding sensitive info)
+
+Scanning & Network Probing Methods
+
 Ping methods
-Different Scans, TCP Connect Scan, Stealth Scan Etc
-NTP,Finger,TFTP, Kerberos
 
-MitreCVE
-GNUnet
-AOL
-EZGif
+Different Scans: TCP Connect Scan, Stealth Scan, etc.
+
+Protocols & Services
+
+NTP, Finger, TFTP, Kerberos
+
+Vulnerability & Authentication Frameworks
+
+MitreCVE (vulnerability classification)
 
 Different types of vulnerability assessment solutions
+
 Different types of vulnerability assessment tools
-Sherlock
-Qualys VM
-Octoparse
-Nessus
-BeEF
-Metasploit
+
+Different types of authentication protocols
+
+Attack Techniques
+
+LLMNR/NBT-NS poisoning attacks
+
+Tools Categorized by Use
+Below are the tools grouped into categories based on how they’re used in penetration testing, forensics, reconnaissance, and more.
+
+1. OSINT & Reconnaissance Tools
+These tools and platforms help you gather information on targets (people, domains, or networks) using open-source data.
+
+People/Entity Search:
+
+Been Verified
+
+Spokeo
+
+Whitepages
+
+ExoneraTor (tracking historical data on IPs/hosts)
+
+Domain & Web Recon:
+
+theHarvester
+
+Spyse
+
 Recon-ng
-FOCA
 
-Different types of authentication protocals
+FOCA (metadata extraction)
+
+Social & Content Intelligence:
+
+BuzzSumo
+
+Mention
+
 Factiva
-Shodan
-whois
-linpostexp
-dylib hijack scanner
-msfvenom
-DPAT
-ntdsutil
-powerview commaands
-Xray
-FaceNiff
-GhostPack Seatbelt
-xHelper
-LLMNR/NBT-NS poisoning attacks.
 
-CrackMapExec
-pwdump7
-clearev
-BeRoot
-rtgen
+Specialized Search & Lookup:
+
+Shodan (internet-connected device search)
+
+whois
+
+Sherlock (username enumeration)
+
+Visualization & Data Analysis:
+
+Maltego
+
+Gephi
+
+NodeXL
+
+Web Scraping:
+
+Octoparse
+
+2. Network Scanning & Mapping Tools
+Use these to discover hosts, open ports, and map network topologies:
+
+hping (packet crafting)
+
+Fing
+
+Nmap
+
+(Note: “Ping methods” and the various scan types are part of the conceptual framework behind these tools.)
+
+3. Vulnerability Assessment & Scanning Tools
+These tools help identify security weaknesses in systems and applications:
+
+GFI LanGuard
+
+OpenVAS
+
+Nikito (likely referring to the web server scanner “Nikto”)
+
+Qualys VM
+
+Nessus
+
+Xray (web vulnerability scanner)
+
+4. Web/Application Analysis & Data Gathering
+For assessing web applications and cloning/crawling sites:
+
+BurpSuite (web app penetration testing)
+
+HTTrack WebSite Copier
+
+Photon
+
+Custom scripts:
+
+domianfy.py
+
+mailfy.py
+
+searchfy.py
+
+usufy.pf
+
+5. Password Cracking & Authentication Exploits
+Tools in this category focus on recovering or cracking passwords:
+
+Cain & Abel
+
+John the Ripper
+
+hashcat
+
 L0phtCrack
+
+6. Exploitation Frameworks & Payload Generation
+These frameworks and utilities facilitate exploitation and payload crafting:
+
+msfvenom (payload generator)
+
+Metasploit
+
+BeEF (Browser Exploitation Framework)
+
+7. Post-Exploitation & Active Directory Tools
+After gaining initial access, these tools help with lateral movement, credential dumping, and system auditing:
+
+powerview commands (Active Directory enumeration)
+
+linpostexp (Linux post-exploitation)
+
+CrackMapExec (post-exploitation/lateral movement)
+
+pwdump7 (password hash dumping)
+
+clearev (clearing Windows event logs)
+
+BeRoot (privilege escalation for Linux)
+
+ntdsutil (Active Directory maintenance/forensics)
+
+GhostPack Seatbelt (system auditing on Windows)
+
+8. Intrusion Detection/Prevention & Monitoring Tools
+These help in detecting or preventing intrusions:
+
+KFSensor (honeypot/intrusion detection)
+
+Zimperiums IPS (Intrusion Prevention System)
+
+9. Additional Tools & Scripts (Miscellaneous)
+Some tools either serve niche purposes or are less clearly categorized:
+
+Binary & Dependency Analysis:
+
+Dependency Walker
+
+Custom/Uncertain Tools:
+
+Vindicate
+
+Robber
+
+dylib hijack scanner
+
+FaceNiff (session hijacking)
+
+xHelper
+
+rtgen
+
+Other / Ambiguous:
+
+GNUnet (secure peer-to-peer networking)
+
+AOL (legacy service; its role might depend on context)
+
+EZGif (online GIF editing, possibly for steganography experiments)
