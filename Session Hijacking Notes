@@ -1,0 +1,42 @@
+Session Hijacking Notes
+Attacker get control of a valid TCP communication session between 2 systems.
+
+process:
+    sniff
+    monitor
+    session desync
+    session ID prediction
+    command injection
+
+Types:
+    passive: Untouched traffic
+    active: modifying traffic
+
+Network level hijacking
+application level hijacking
+
+Spoofing attack: Pretending to be another user
+hijacking: seizing control of active connection
+
+UDP Hijacking: Attacker sends forged server reply to victims udp request
+
+approaches to prevent hijacking:
+HTTP Strict Transport Security
+    HSTS is a web security protoccol that protects websites against MITM attacks by forcing to communicate over HTTPS
+Token Binding
+    when a user logs to a web app, it generates cookie with SID called token
+Http Public key pinning (HPKP)
+    HPKP is Trust on first use. HPKP allows a web client to assciate a specific public key certificate to particular server to minimize risk of MITM
+
+IPsec
+    Protocol for securing IP communication by authentication and encrypting each IP packet of communication session
+
+    modes:
+        Transport mode
+        Tunnel mode: VPN
+
+Toosl:
+OWASP ZAP
+Burpsuite
+netool toolkit
+USM Anywhere

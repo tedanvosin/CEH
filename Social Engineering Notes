@@ -1,0 +1,43 @@
+Social Engineering
+Art of convincing people to reveal confidential information.
+
+Phases:
+    Research
+    Select Target
+    Develop Relationship
+    exploit
+
+Types:
+    - Human Based
+        Impersonation
+        Vishing(Voice over/VoIP Phishing)
+        Reverse Social Engineering
+        Piggybacking
+        Tailgating
+        Diversion Theft
+    - Computer Based
+        Phishing
+            Spear phishing(Specific target)
+            Whaling(going after big poeple)
+            Pharming(Redirecting web traffic)
+            Spimming(Sort of spamming)
+    - Mobile Based
+
+Insider threat
+    Malicious Insider
+    Negligent Insider
+    Professional Insider
+    Compromised Insider
+    Accidental Insider
+
+Identity Theft
+
+Tools:
+Netcraft Anti Phishing Toolbar
+
+Social Engineering Toolkit
+OhPhish
+Go Phish
+Speedphish framework
+lucy security
+MSI Simple Phish

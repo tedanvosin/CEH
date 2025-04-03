@@ -1,0 +1,41 @@
+Denial of Service
+DoS is an attack on a computer that reduces, restircts or prevents accessibility of system resources to legitimate users.
+
+DDoS: Distributed DoS, involves multitude of compromised systems.
+
+Botnet: Bots are soft apps/trojans that run automated tasks over internet.
+
+Volumetric Attacks
+    consume all bandwidth of network
+    types:
+        UDP flood attack: send spoofed udp packets at high rate. results in ICMP error reply
+        ICMP flood attack: send large volume of ICMP echo req packet. to protect set threshold limit
+        smurf attack: attacker spoofs source IP with victim IP address and sends large number of ICMP echo request packets to IP broadcast system.
+        Pulse wave DDoS: Perform DDoS in pulses
+        Zero-Day DDoS
+        SYN flood Attack: send large number of syn requests with fake src IP address.
+        HTTP GET/POST Attack: use time delayed http headers to maintain connections, or http req with complete headers but incomplete message bodies to make the server wait.
+    Ping of death Attack: Trying to crash systems by sending malformed or oversized packet
+
+Protocol Attack: consume other resources such as connection state tables
+        Fragmentation Attack: Stop victim from reassembling the packets
+
+Application layer attack: consume resources or services of an application
+
+
+Multivector Attack: Combination of all attack types.
+Peer-to-Peer Attack
+Permanent DOS: also known as phlashing, it sabotages system hardware
+TCP SACK Panic Attack: Send SACK packet with malformed max segment size to crash linux machine. it exploits integer overflow vuln. in linux socket buffer(SKB) causing kernel panic
+
+Distributes Reflected Denial of service
+DDoS Extortion or Ransom DDoS
+
+Tools:
+High orbit Ion cannon
+Low orbit Ion cannon
+XOIC
+HULK
+Metasploit
+Tor's Hammer
+Slowris
