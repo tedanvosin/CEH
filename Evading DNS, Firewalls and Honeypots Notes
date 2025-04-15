@@ -1,0 +1,25 @@
+Intrusion Detection System
+    works on:
+        Signature Detection
+        Anomally Detection
+        Protocol Anomally Detection
+
+    Types:
+        Network Based
+        Host Based
+
+Intrusion Prevention System
+    Inline device to prevent packets form crossing
+
+    Firewalls:
+    Bastion Host: Comp System designed and configured to protect network resources
+    Screened Subnet: Same as demilitarized zone, contains hosts that offer public services
+    Multi homed firewall: Firewall that allows further subdivision of of the network based on security objectives
+
+Honeypot
+
+
+Tools:
+Snort
+send-safe honeypot hunter
+kippo_detect
